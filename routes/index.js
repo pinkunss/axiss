@@ -24,6 +24,10 @@ router.get('/formpge', function (req, res, next) {
   res.render('form', { title: 'form' });
 });
 
+router.get('/uplolded', function (req, res, next) {
+  res.render('uplode', { title: ' uplode' })
+});
+
 router.get('/options', function (req, res, next) {
   res.render('option', { title: 'Options' });
 });
